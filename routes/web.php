@@ -2,11 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'welcome');
+Route::view('/', 'jobs');
 
-Route::view('dashboard', 'dashboard')
+Route::view('jobs', 'jobs')
     ->middleware(['auth', 'verified'])
-    ->name('dashboard');
+    ->name('jobs');
+
+Route::view('for-you', 'for-you')
+    ->middleware(['auth', 'verified'])
+    ->name('for-you');
+
 
 Route::view('profile', 'profile')
     ->middleware(['auth'])
