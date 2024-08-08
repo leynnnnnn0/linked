@@ -7,6 +7,7 @@
         </div>
 
         <input
+            wire:model.live.debounce.500ms="search"
             class="peer h-full w-full outline-none focus:outline-none border-none text-sm text-gray-700 pr-2"
             type="text"
             id="search"

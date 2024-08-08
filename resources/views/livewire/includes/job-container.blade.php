@@ -1,4 +1,4 @@
-<div class="bg-white border rounded-lg border-white/50 drop-shadow-xl flex flex-col h-auto w-72 max-w-md p-6 dark:bg-gray-50 dark:text-gray-800">
+<div wire:key="{{$job->id}}" class="bg-white border rounded-lg border-white/50 drop-shadow-xl flex flex-col h-auto w-72 max-w-md p-6 dark:bg-gray-50 dark:text-gray-800">
     <div class="flex flex-col space-y-2">
         <div class="flex gap-3 items-center">
             <div>
