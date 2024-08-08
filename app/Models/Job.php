@@ -11,7 +11,8 @@ class Job extends Model
 
     protected $table = 'jobs_list';
     protected $fillable = [
-        'job_title',
+        'title',
+        'user_id',
         'company_name',
         'job_description',
         'salary'
