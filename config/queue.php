@@ -76,10 +76,10 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Job Batching
+    | Fuck Batching
     |--------------------------------------------------------------------------
     |
-    | The following options configure the database and table that store job
+    | The following options configure the database and table that store includes
     | batching information. These options can be updated to any database
     | connection and table which has been defined by your application.
     |
@@ -95,7 +95,7 @@ return [
     | Failed Queue Jobs
     |--------------------------------------------------------------------------
     |
-    | These options configure the behavior of failed queue job logging so you
+    | These options configure the behavior of failed queue includes logging so you
     | can control how and where failed jobs are stored. Laravel ships with
     | support for storing failed jobs in a simple file or in a database.
     |

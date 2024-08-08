@@ -5,15 +5,15 @@
                 <x-avatar src="http://picsum.photos/30/30"/>
             </div>
             <div class="flex flex-col">
-                <h2 class="text-md font-semibold">Leroy Jenkins</h2>
-                <span class="block pb-2 text-xs dark:text-gray-600">CTO of Company Inc.</span>
+                <h2 class="text-md font-semibold">{{ $job->title }}</h2>
+                <span class="block pb-2 text-xs dark:text-gray-600">{{ $job->company_name }}</span>
             </div>
         </div>
         <div class="flex-1">
             <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eligendi dolorum sequi illum qui unde aspernatur non deserunt</p>
         </div>
         <div>
-            <strong>Salary: <span class="text-green-300">$90.000</span></strong>
+            <strong>Salary: <span class="text-green-300">${{ number_format($job->salary, 2) }}</span></strong>
         </div>
     </div>
 </div>
